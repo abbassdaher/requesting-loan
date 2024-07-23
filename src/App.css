@@ -1,0 +1,42 @@
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.header{
+  align-items: center;
+}
+.bodyStyle {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.formStyle {
+  background-color: #eeeeee;
+  padding: 20px;
+  border-radius: 15px;
+  width: 100%;
+}
+.modalStyle {
+  position: absolute;
+  opacity: 0.6;
+  color: white;
+  font-weight: 800;
+  padding: 20px;
+  width: 90vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
