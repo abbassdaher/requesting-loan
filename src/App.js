@@ -10,7 +10,7 @@ function App() {
         <hr />
       </div>
       <FormRegestration />
-      <Modal color='green' text='The Form Has Been Submitted Successfully' />
+      {/*<Modal color='green' text='The Form Has Been Submitted Successfully' />*/}
     </div>
   );
 }
